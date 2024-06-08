@@ -90,4 +90,4 @@ Contributions are what make the open source community such an amazing place to l
 Priyanshu K Sharma - [@Twitter](https://x.com/itspriyanshuks)
             [@PriyanshuKSharma](https://github.com/PriyanshuKSharma)
 
-Project Link: [https://github.com/your_username/myntra-clone](https://github.com/PriyanshuKSharma/MyntraClone.git) 
+Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git 
