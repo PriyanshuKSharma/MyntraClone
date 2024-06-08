@@ -10,7 +10,6 @@ This is a responsive clone of the popular e-commerce website Myntra. It includes
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -81,16 +80,9 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - your_email@example.com
+Your Name - [@your_twitter](https://x.com/itspriyanshuks) - priyanshu17ks@gmail.com
 
-Project Link: [https://github.com/your_username/myntra-clone](https://github.com/your_username/myntra-clone) *(Update with actual URL)*
-
----
-
-*Note: Update placeholders like `your_username`, `your_twitter`, `your_email@example.com`, and demo/project links with actual information.*
+Project Link: [https://github.com/your_username/myntra-clone](https://github.com/PriyanshuKSharma/MyntraClone.git) 
