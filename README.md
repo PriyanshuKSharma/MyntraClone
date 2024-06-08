@@ -87,6 +87,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ## Contact
 
-Your Name - [@Twitter](https://x.com/itspriyanshuks) - priyanshu17ks@gmail.com
+Your Name - [@Twitter](https://x.com/itspriyanshuks)
+            [@PriyanshuKSharma](priyanshu17ks@gmail.com)
 
 Project Link: [https://github.com/your_username/myntra-clone](https://github.com/PriyanshuKSharma/MyntraClone.git) 
