@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: beige;
+    height: 80px;
+    justify-content: space-between;
+
+}
+
+.myntra_home {
+    height: 45px;
+}
+
+.logo {
+    margin-left: 4%;
+}
+
+.action {
+    margin-right: 4%;
+}
+
+.nav {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.nav a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+
+.search {
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    padding: 10px;
+    
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+}
+
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+}
