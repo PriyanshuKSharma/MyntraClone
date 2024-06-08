@@ -14,7 +14,7 @@ This is a responsive clone of the popular e-commerce website Myntra. It includes
 
 ## Demo
 
-You can view a live demo of the project [here](#https://priyanshuksharma.github.io/MyntraClone/). *(Update with actual URL once deployed)*
+You can view a live demo of the project [here](# https://priyanshuksharma.github.io/MyntraClone/). 
 
 ## Features
 
