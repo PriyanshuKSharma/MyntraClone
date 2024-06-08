@@ -10,6 +10,7 @@ This is a responsive clone of the popular e-commerce website Myntra. It includes
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
+- [Contact](#contact)
 
 ## Demo
 
