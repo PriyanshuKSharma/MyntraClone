@@ -11,8 +11,8 @@ This is a responsive clone of the popular e-commerce website Myntra. It includes
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [Contact](#contact)
-
-## Demo
+- [AWS Implementation](#aws-implementation)
+- [License](#license)
 
 ## Demo
 
@@ -85,9 +85,84 @@ Contributions are what make the open source community such an amazing place to l
 5. Open a Pull Request
 
 
+## AWS Implementation
+
+Step 1: Create an AWS Account
+If you don’t already have an AWS account, sign up at AWS.
+
+Step 2: Choose a Hosting Option
+There are multiple ways to host a website on AWS, depending on your requirements. The most common options are:
+
+1. Amazon S3 (Static Websites): For static websites (HTML, CSS, JS).
+2. Amazon EC2 (Dynamic Websites): For dynamic websites requiring server-side processing.
+3. AWS Amplify (Web and Mobile Apps): Simplifies the process of deploying full-stack web and mobile apps.
+4. Amazon Lightsail: Simplifies the setup of virtual private servers.
+
+Step 3: Set Up a Static Website with Amazon S3
+This is suitable for hosting simple static websites.
+
+Create a Bucket:
+
+Open the Amazon S3 console.
+1. Click on “Create bucket”.
+2. Provide a bucket name (this should be unique across all of AWS).
+3. Choose a region and configure other settings as per your needs.
+4. Click on “Create bucket” at the bottom.
+
+Upload Your Website Files:
+
+1. Click on your newly created bucket.
+2. Click on the “Upload” button.
+3. Add your website files (HTML, CSS, JS, images, etc.).
+4. Click on “Upload” to start the upload process.
+
+Enable Static Website Hosting:
+
+1. Click on your bucket and go to the “Properties” tab.
+2. Scroll down to the “Static website hosting” section.
+3. Select “Use this bucket to host a website”.
+4. Specify the index document (e.g., index.html) and an error document (e.g., error.html).
+5. Save the changes.
+
+Make Your Bucket Public:
+
+Go to the “Permissions” tab.
+
+Edit the “Bucket policy” to allow public access. You can use the following policy (replace YOUR-BUCKET-NAME with your bucket name):
+
+## Setting S3 Bucket Policy
+
+To set the S3 bucket policy, use the following bash script:
+
+```
+#Go to the “Permissions” tab.
+#Edit the “Bucket policy” to allow public access. You can use the following policy (replace YOUR-BUCKET-NAME with your bucket name):
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
+    }
+  ]
+}
+```
+Access Your Website:
+
+The website will be available at the bucket’s endpoint, which you can find in the “Static website hosting” section.
+
 ## Contact
 
 Priyanshu K Sharma - [@Twitter](https://x.com/itspriyanshuks)
             [@PriyanshuKSharma](https://github.com/PriyanshuKSharma)
 
 Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git 
+AWS Hosting: http://myntraclonebypriyanshu.s3-website.ap-south-1.amazonaws.com/
+
+## License
+This project is not currently licensed.
+
