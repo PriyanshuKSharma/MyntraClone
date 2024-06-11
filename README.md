@@ -103,7 +103,7 @@ This is suitable for hosting simple static websites.
 
 Create a Bucket:
 
-Open the Amazon S3 console.
+Open the [@Amazon S3 console](https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin).
 1. Click on “Create bucket”.
 2. Provide a bucket name (this should be unique across all of AWS).
 3. Choose a region and configure other settings as per your needs.
@@ -160,7 +160,7 @@ The website will be available at the bucket’s endpoint, which you can find in 
 Priyanshu K Sharma - [@Twitter](https://x.com/itspriyanshuks)
             [@PriyanshuKSharma](https://github.com/PriyanshuKSharma)
 
-Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git 
+Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git <br>
 AWS Hosting: http://myntraclonebypriyanshu.s3-website.ap-south-1.amazonaws.com/
 
 ## License
