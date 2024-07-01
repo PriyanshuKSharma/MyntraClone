@@ -44,11 +44,11 @@ You need a modern web browser to view the project.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username/myntra-clone.git
+   git clone https://github.com/PriyanshuKSharma/MyntraClone.git
    ```
 2. Navigate to the project directory
    ```sh
-   cd myntra-clone
+   cd MyntraClone
    ```
 3. Open `index.html` in your web browser
    ```sh
