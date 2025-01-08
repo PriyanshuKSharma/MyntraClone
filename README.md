@@ -202,7 +202,7 @@ GitHub: [PriyanshuKSharma](https://github.com/PriyanshuKSharma)
 
 Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git  
 AWS Hosting: http://myntraclonebypriyanshu.s3-website.ap-south-1.amazonaws.com/  
-Netlify Hosting: [[Your Netlify URL Here](https://majestic-faloodeh-224c28.netlify.app/)]
+Netlify Hosting: https://majestic-faloodeh-224c28.netlify.app/
 
 ---
 
