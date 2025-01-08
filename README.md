@@ -10,14 +10,14 @@ This is a responsive clone of the popular e-commerce website Myntra. It includes
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [Contact](#contact)
 - [AWS Implementation](#aws-implementation)
+- [Netlify Deployment](#netlify-deployment)
+- [Contact](#contact)
 - [License](#license)
 
 ## Demo
 
 You can view a live demo of the project [here](https://priyanshuksharma.github.io/MyntraClone/).
-
 
 ## Features
 
@@ -83,7 +83,6 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
 
 ## AWS Implementation
 
@@ -155,14 +154,60 @@ Access Your Website:
 
 The website will be available at the bucket’s endpoint, which you can find in the “Static website hosting” section.
 
+
+---
+
+## Netlify Deployment
+
+To deploy this project on **Netlify**, follow these steps:
+
+### Prerequisites
+- A GitHub account.
+- A Netlify account (sign up at [Netlify](https://www.netlify.com/)).
+
+### Steps to Deploy
+1. **Push Your Code to GitHub**:
+   Ensure your repository is up to date and pushed to GitHub.
+
+2. **Login to Netlify**:
+   - Go to [Netlify](https://www.netlify.com/) and log in using your credentials.
+
+3. **Create a New Site**:
+   - On the Netlify dashboard, click on the **"Add new site"** button.
+   - Select **"Import an existing project"**.
+
+4. **Connect GitHub Repository**:
+   - Authorize Netlify to access your GitHub account.
+   - Select the `MyntraClone` repository.
+
+5. **Configure Build Settings**:
+   - Since this is a static website, no additional build commands are required. 
+   - Ensure the **Publish directory** is set to the root directory (`/`).
+
+6. **Deploy Your Site**:
+   - Click **"Deploy site"**.
+   - Netlify will begin deploying your project. Once the deployment is complete, you will see a live link to access your site.
+
+7. **Customize the Domain**:
+   - You can update the auto-generated domain to a custom domain by going to the **"Domain settings"** in Netlify.
+
+Your project is now live and accessible via the Netlify URL.
+
+---
+
 ## Contact
 
-Priyanshu K Sharma - [@Twitter](https://x.com/itspriyanshuks)
-            [@PriyanshuKSharma](https://github.com/PriyanshuKSharma)
+Priyanshu K Sharma - [@Twitter](https://x.com/itspriyanshuks)  
+GitHub: [PriyanshuKSharma](https://github.com/PriyanshuKSharma)  
 
-Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git <br>
-AWS Hosting: http://myntraclonebypriyanshu.s3-website.ap-south-1.amazonaws.com/
+Project Link: https://github.com/PriyanshuKSharma/MyntraClone.git  
+AWS Hosting: http://myntraclonebypriyanshu.s3-website.ap-south-1.amazonaws.com/  
+Netlify Hosting: [[Your Netlify URL Here](https://majestic-faloodeh-224c28.netlify.app/)]
+
+---
 
 ## License
+
 This project is not currently licensed.
 
+---
