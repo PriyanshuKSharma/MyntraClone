@@ -11,6 +11,7 @@ This is a responsive clone of the popular e-commerce website Myntra. It includes
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [AWS Implementation](#aws-implementation)
+- [Terraform Deployment](#terraform-deployment)
 - [Netlify Deployment](#netlify-deployment)
 - [Contact](#contact)
 - [License](#license)
@@ -70,8 +71,10 @@ myntra-clone/
 │       ├── 1.jpg
 │       ├── 2.jpg
 │       ├── ...
+├── main.tf
 ├── index.html
 └── index.css
+
 ```
 
 ## Contributing
@@ -154,6 +157,29 @@ Access Your Website:
 
 The website will be available at the bucket’s endpoint, which you can find in the “Static website hosting” section.
 
+---
+
+## Terraform Deployment
+
+This project includes Terraform configuration to automate the deployment of the website to an AWS S3 bucket.
+
+### Steps to Deploy with Terraform
+
+1. Ensure you have Terraform installed on your machine.
+2. Configure your AWS credentials for Terraform to access your AWS account.
+3. Navigate to the project directory containing the `main.tf` file.
+4. Run the following commands:
+
+```sh
+terraform init
+terraform plan
+terraform apply
+```
+
+5. Terraform will create an S3 bucket, configure it for static website hosting, set the appropriate bucket policy, and upload all the website files to the bucket.
+6. After successful deployment, you can access your website using the S3 bucket website endpoint.
+
+This automation simplifies the deployment process and ensures your website is consistently and reliably hosted on AWS.
 
 ---
 
